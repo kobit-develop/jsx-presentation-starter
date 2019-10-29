@@ -1,0 +1,9 @@
+{
+  "name": "jsx-presentation-starter",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/kobit-develop/jsx-presentation-starter.git",
+  "author": "mottox2 <y.mottox2@gmail.com>",
+  "private": true,
+  "license": "MIT"
+}
