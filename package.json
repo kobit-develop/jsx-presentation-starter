@@ -6,7 +6,9 @@
   "author": "mottox2 <y.mottox2@gmail.com>",
   "private": true,
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "babel-node index.tsx --extensions='.tsx'"
+  },
   "dependencies": {
     "jsx-presentation": "^0.0.7",
     "react": "^16.11.0"
