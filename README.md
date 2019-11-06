@@ -1,6 +1,6 @@
 # Starter for jsx-presentation
 
-jsx-presentation starter template.
+[jsx-presentation](https://github.com/kobit-develop/jsx-presentation) starter template.
 
 ## Usage
 
