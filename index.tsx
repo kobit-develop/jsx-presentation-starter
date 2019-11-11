@@ -6,7 +6,8 @@ import Slide3 from './slides/Slide3'
 
 const config = {
   dryRun: false,
-  outDir: 'results'
+  outDir: 'results',
+  fileName: 'output'
 }
 
 generate(<Presentation>
