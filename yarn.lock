@@ -1888,10 +1888,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jsx-presentation@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/jsx-presentation/-/jsx-presentation-0.0.7.tgz#2c7d41115839ab49dea341419598d9f9bdf1e6d1"
-  integrity sha512-pt/uNR1K1t8DHFrOc/Ib/6GskYqlyf9b2/DuuxLWBNEkVPj1+eOfPcqSEvjNw1Jsj62lcAvPyiKiLbhH2BCQpA==
+jsx-presentation@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/jsx-presentation/-/jsx-presentation-0.0.15.tgz#d744827bb75e25b6e65daa4622f7be93f7a4b0a0"
+  integrity sha512-h/Uy997qHz/lYnZwh+sAhm5LH/htBCBOU6tKH7YGerQFS2Ix1dlt4LMYmhw8Hb17CNHaf3VWhX+LxBherbym+g==
   dependencies:
     jszip "^3.2.2"
     react "^16.8.6"
