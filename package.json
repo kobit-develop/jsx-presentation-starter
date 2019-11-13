@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "csv-parse": "^4.6.5",
-    "jsx-presentation": "^0.0.15",
+    "jsx-presentation": "^0.0.16",
     "react": "^16.11.0"
   },
   "devDependencies": {
