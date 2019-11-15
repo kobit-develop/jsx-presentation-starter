@@ -10,7 +10,7 @@ const data = [
 ]
 
 export default () => (
-  <Slide padding={300000}>
+  <Slide padding={8}>
     <PageHeader title="Table Slide" description="This plugin has HTML like syntax." />
     <Table flexGrow={1}>
       {data.map((row, rowIndex) => {

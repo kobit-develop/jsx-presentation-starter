@@ -3,7 +3,7 @@ import { Chart, Slide } from 'jsx-presentation'
 import PageHeader from '../components/PageHeader'
 
 export default () => (
-  <Slide padding={300000}>
+  <Slide padding={8}>
     <PageHeader title="Chart Slide" description="jsx-presentation can display chart." />
     <Chart
       data={{
