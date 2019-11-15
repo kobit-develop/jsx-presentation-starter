@@ -25,15 +25,15 @@ const bodyStyle = {
 }
 
 const SubHeader: React.FC = ({ children }) =>
-  <Text a='' fill="999999" color="ffffff" fontSize={12} bold height={320000} verticalAlign='middle'>{children}</Text>
+  <Text fill="999999" color="ffffff" fontSize={12} bold height={8} verticalAlign='middle'>{children}</Text>
 
 export default () => (
   <Slide>
-    <Text color="FFFFFF" fontSize={16} bold height={320000 * 1.5} fill='305394' verticalAlign="middle">
+    <Text color="FFFFFF" fontSize={16} bold height={14} fill='305394' verticalAlign="middle">
       Complex Layout
     </Text>
-    <Fragment flexGrow={1} padding={300000}>
-      <Text {...bodyStyle} height={320000}>
+    <Fragment flexGrow={1} padding={8}>
+      <Text {...bodyStyle} height={20}>
         Fragment is abstract view and has layout props.
       </Text>
       <Fragment flexDirection="row" flexGrow={1}>

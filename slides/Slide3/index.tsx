@@ -9,7 +9,7 @@ const csv = fs.readFileSync(path.join(__dirname, './data.csv'));
 const data = parse(csv)
 
 export default () => (
-  <Slide padding={300000}>
+  <Slide padding={8}>
     <PageHeader title="Table from csv" description="These data derived from csv" />
     <Table flexGrow={1}>
       {data.map((row, rowIndex) => {
