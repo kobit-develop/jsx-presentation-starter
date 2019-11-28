@@ -11,7 +11,7 @@ jobs:
       with:
         node-version: '10.x'
     - run: yarn install
-    - run: yarn start
+    - run: yarn start --filename output
     - uses: actions/upload-artifact@master
       with:
         name: output.pptx
