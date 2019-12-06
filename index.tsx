@@ -8,13 +8,15 @@ import Slide4 from './slides/Slide4'
 
 const args = arg({
   '--filename': String,
+  '--open': Boolean,
   '--extensions': String // babel-node
 })
 
 const config = {
   dryRun: false,
   outDir: 'results',
-  fileName: args["--filename"]
+  fileName: args["--filename"],
+  open: args["--open"],
 }
 
 generate(<Presentation>
