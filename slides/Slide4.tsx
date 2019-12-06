@@ -32,7 +32,7 @@ export default () => (
     <Text color="FFFFFF" fontSize={16} bold height={14} fill='305394' verticalAlign="middle">
       Complex Layout
     </Text>
-    <Fragment flexGrow={1} padding={8}>
+    <Fragment flexGrow={1} padding={8} paddingTop={2}>
       <Text {...bodyStyle} height={20}>
         Fragment is abstract view and has layout props.
       </Text>
